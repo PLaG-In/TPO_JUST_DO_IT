@@ -1,0 +1,5 @@
+﻿  Triangle.cpp
+Triangle.cpp(135): warning C4101: e: неиспользованная локальная переменная
+  Создание кода
+  Создание кода завершено
+  Triangle.vcxproj -> C:\TPO\Triangle\Release\Triangle.exe

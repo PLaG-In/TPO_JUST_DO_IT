@@ -1,0 +1,6 @@
+./page1.html
+http://www.yandex.ru
+index.html
+javascript:alert(\'Hello\');
+page1.html
+page2.html

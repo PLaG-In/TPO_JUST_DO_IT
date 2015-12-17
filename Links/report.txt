@@ -1,0 +1,34 @@
+All links:
+http://tpotest.aderkin.ru/page17.html - 500
+http://tpotest.aderkin.ru/page10.html - 200
+http://tpotest.aderkin.ru/page16.html - 500
+http://tpotest.aderkin.ru/page7.html - 200
+http://tpotest.aderkin.ru/page8.html - 200
+http://tpotest.aderkin.ru/page12.html - 500
+http://tpotest.aderkin.ru/trololo - 500
+http://tpotest.aderkin.ru/page.html - 500
+http://tpotest.aderkin.ru/page2.html - 200
+http://tpotest.aderkin.ru/image.jpg - 500
+http://tpotest.aderkin.ru/page3.html - 200
+http://tpotest.aderkin.ru/page15.html - 500
+http://tpotest.aderkin.ru/page11.html - 500
+http://tpotest.aderkin.ru/page13.html - 500
+http://tpotest.aderkin.ru/page9.html - 200
+http://tpotest.aderkin.ru - 200
+http://tpotest.aderkin.ru/index.html - 200
+http://tpotest.aderkin.ru/page4.html - 200
+http://tpotest.aderkin.ru/page5.html - 200
+http://tpotest.aderkin.ru/page6.html - 200
+http://tpotest.aderkin.ru/page1.html - 200
+
+Broken links:
+http://tpotest.aderkin.ru/page17.html - 500
+http://tpotest.aderkin.ru/page16.html - 500
+http://tpotest.aderkin.ru/page12.html - 500
+http://tpotest.aderkin.ru/page.html - 500
+http://tpotest.aderkin.ru/image.jpg - 500
+http://tpotest.aderkin.ru/page15.html - 500
+http://tpotest.aderkin.ru/page13.html - 500
+http://tpotest.aderkin.ru/page11.html - 500
+http://tpotest.aderkin.ru/trololo - 500
+http://tpotest.aderkin.ru/termopasta.png - 401
