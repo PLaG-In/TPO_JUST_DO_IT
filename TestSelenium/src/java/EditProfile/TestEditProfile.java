@@ -54,7 +54,6 @@ public class TestEditProfile
     }
     @Test
     public void testChangePassword() {
-        editProfile.email = "2131***()&&&";
         editProfile.open();
         editProfile.loginRelaxup();
         editProfile.pause(sevenSec);
@@ -72,7 +71,6 @@ public class TestEditProfile
 
     @Test
     public void testBadChangePassword() {
-        editProfile.email = "2131***()&&&";
         editProfile.open();
         editProfile.loginRelaxup();
         editProfile.pause(sevenSec);
@@ -90,7 +88,6 @@ public class TestEditProfile
 
     @Test
     public void testBadChangeName() {
-        editProfile.email = "2131***()&&&";
         editProfile.open();
         editProfile.loginRelaxup();
         editProfile.pause(sevenSec);
@@ -106,8 +103,8 @@ public class TestEditProfile
 
     @Test
     public void testBadChangeEmail() {
-        editProfile.email = "test@mail.te";
         editProfile.open();
+        //editProfile.email = "2131***()&&&";
         editProfile.loginRelaxup();
         editProfile.pause(fiveSec);
         editProfile.linkMyProfile.click();
@@ -115,6 +112,10 @@ public class TestEditProfile
         editProfile.textBoxEmail.clear();
         editProfile.textBoxEmail.sendKeys("2131***()&&&");
         editProfile.email = "2131***()&&&";
+        editProfile.saveButton.click();
+        editProfile.pause(fiveSec);
+        editProfile.textBoxEmail.clear();
+        editProfile.textBoxEmail.sendKeys("test@mail.te");
         editProfile.saveButton.click();
         editProfile.pause(fiveSec);
         Assert.assertFalse("Incorrect email passed!Failed!", editProfile.isTextPresent(success));

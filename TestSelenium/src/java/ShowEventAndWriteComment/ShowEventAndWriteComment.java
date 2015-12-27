@@ -11,12 +11,12 @@ import static java.lang.Thread.sleep;
  */
 public class ShowEventAndWriteComment
 {
-    public static final String email = "2131***()&&&";
+    public static final String email = "test@mail.te";
     public static final String pass = "qwerty1";
     public static final String url = "http://www.relaxup.ru/";
     private WebDriver driver;
 
-    @FindBy(xpath = "//*[@id=\"event_16577\"]/div/div[1]")
+    @FindBy(xpath = "//*[@id=\"event_16623\"]/div/div")
     public WebElement linkEvent;
 
     @FindBy(linkText = "Перейти на страницу мероприятия")

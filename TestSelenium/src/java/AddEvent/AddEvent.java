@@ -58,6 +58,9 @@ public class AddEvent
     @FindBy(id = "event-eventLocations_0_phone_order")
     public WebElement textBoxSecPhone;
 
+    @FindBy(id = "event-eventLocations_0_eventTimesheets_0_start_date")
+    public WebElement dataTimeStartDate;
+
     @FindBy(id = "event-eventLocations_0_eventTimesheets_0_end_date")
     public WebElement dataTimeEndDate;
 

@@ -107,4 +107,43 @@ public class TestAddEvent
         Assert.assertFalse("Test passed with incorrect phone number!", addEvent.isTextPresent("Мероприятие успешно сохранено."));
         addEvent.close();
     }
+
+    @Test
+    public void testInputsWithPassedDate()
+    {
+        addEvent.open();
+        addEvent.loginRelaxup();
+        addEvent.pause(sevenSec);
+        addEvent.goToEditEvent();
+        addEvent.linkTimetableAndPrice.click();
+        addEvent.dataTimeStartDate.clear();
+        addEvent.dataTimeStartDate.sendKeys("2015-05-11");
+        addEvent.dataTimeEndDate.sendKeys("2015-05-13");
+        addEvent.dataTimeEndTime.clear();
+        addEvent.dataTimeEndTime.sendKeys("00:00");
+        addEvent.xButton.click();
+        addEvent.pause(threeSec);
+
+        Assert.assertFalse("Test passed with passed date!", addEvent.isTextPresent("Мероприятие успешно сохранено."));
+        addEvent.close();
+    }
+
+    @Test
+    public void testInputsWithoutContacts()
+    {
+        addEvent.open();
+        addEvent.loginRelaxup();
+        addEvent.pause(sevenSec);
+        addEvent.goToEditEvent();
+        addEvent.textBoxPhone.clear();
+        addEvent.textBoxEmail.clear();
+        addEvent.linkTimetableAndPrice.click();
+        addEvent.textBoxSecPhone.clear();
+        addEvent.chooseListLocation.clear();
+        addEvent.xButton.click();
+        addEvent.pause(threeSec);
+
+        Assert.assertFalse("Test passed with all contact info!", addEvent.isTextPresent("Мероприятие успешно сохранено."));
+        addEvent.close();
+    }
 }

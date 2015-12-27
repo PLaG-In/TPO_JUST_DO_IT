@@ -31,7 +31,6 @@ class url_finder(HTMLParser):
 
 def handle_url():
     while (len(stack) > 0):
-        print stack
         url = stack.pop()
         parser = url_finder()
         print url
